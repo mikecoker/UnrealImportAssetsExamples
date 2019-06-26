@@ -3,7 +3,7 @@
       {
          "GroupName":"SkeletalMesh",
          "Filenames":[
-            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan.fbx"
+            "C:/projects/UnrealImportAssetsExamples/ExampleAssets/HeroicHeroMan.fbx"
          ],
          "DestinationPath":"/SkeletalMesh/",
          "bReplaceExisting":"true",
@@ -22,8 +22,8 @@
       {
           "GroupName":"Textures",
           "Filenames":[
-            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan_body_derm.png",
-            "C:\\Users\\calem\\Documents\\Unreal Projects\\UnrealImportAssetsExamples\\ExampleAssets\\HeroicHeroMan_body_displ.png"
+            "C:/projects/UnrealImportAssetsExamples/ExampleAssets/HeroicHeroMan_body_derm.png",
+            "C:/projects/UnrealImportAssetsExamples/ExampleAssets/HeroicHeroMan_body_displ.png"
           ],
           "DestinationPath":"/Textures/",
           "bReplaceExisting":"true",
@@ -31,6 +31,19 @@
           "ImportSettings":{
               
           }
+      },
+      {
+         "GroupName":"EnemyDT",
+         "Filenames":[
+            "c:/projects/UnrealImportAssetsExamples/scripts/EnemyDT.csv"
+         ],
+         "DestinationPath":"/Game/UnrealImportAssetsExamples/Datatable",
+         "bReplaceExisting":"true",
+         "bSkipReadOnly":"false",
+         "FactoryName":"CSVImportFactory",
+         "ImportSettings":{
+            "importRowStruct":"ScriptStruct'/Script/UnrealImportAssetsExamples.ExampleData'"
+         }
       }
    ]
 }
